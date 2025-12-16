@@ -129,7 +129,11 @@ function App() {
             
             <div className="relative">
               <div className="bg-gradient-to-br from-nexagreen/10 to-nexagold/10 rounded-2xl p-8 h-96 flex items-center justify-center">
-                <Building2 className="h-32 w-32 text-nexagreen/30" />
+                <img 
+                  src="/logo.svg" 
+                  alt="NexaBridge Consulting Logo" 
+                  className="w-full h-full object-contain p-4"
+                />
               </div>
             </div>
           </div>
